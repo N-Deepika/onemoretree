@@ -3,7 +3,8 @@ import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import React, { Fragment, useRef, useState } from "react";
 import Modal from "react-modal";
-import Form from "../FormWithCompany/Form";
+import LoginFormDistributor from "../FormWithCompany/LoginFormDistributor";
+import LoginFormAdmin from "../FormWithCompany/LoginFormAdmin";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -25,8 +26,8 @@ export default function Example({
   setDistributorModal,
   adminModal,
   setAdminModal,
-  contributorModal,
-  setContributorModal,
+  // contributorModal,
+  // setContributorModal,
 }) {
   return (
     <>
@@ -36,7 +37,7 @@ export default function Example({
           style={customStyles}
           onRequestClose={() => setDistributorModal(false)}
         >
-          <Form />
+          <LoginFormDistributor />
           <button
             className="border-transparent text-gray-500 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             onClick={() => setDistributorModal(false)}
@@ -45,7 +46,7 @@ export default function Example({
           </button>
         </Modal>
       </div>
-      <div className="z-40">
+      {/* <div className="z-40">
         <Modal
           isOpen={contributorModal}
           style={customStyles}
@@ -59,14 +60,14 @@ export default function Example({
             Close me Daddy
           </button>
         </Modal>
-      </div>
+      </div> */}
       <div className="z-40">
         <Modal
           isOpen={adminModal}
           style={customStyles}
           onRequestClose={() => setAdminModal(false)}
         >
-          <Form />
+          <LoginFormAdmin />
           <button
             className="border-transparent text-gray-500 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             onClick={() => setAdminModal(false)}
@@ -110,7 +111,7 @@ export default function Example({
                   </button>
                 )}
               </Menu.Item>
-              <Menu.Item>
+              {/* <Menu.Item>
                 {({ active }) => (
                   <button
                     onClick={() => setContributorModal(true)}
@@ -122,7 +123,7 @@ export default function Example({
                     Contributor
                   </button>
                 )}
-              </Menu.Item>
+              </Menu.Item> */}
               <Menu.Item>
                 {({ active }) => (
                   <button

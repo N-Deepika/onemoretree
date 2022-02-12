@@ -1,16 +1,27 @@
 import React from "react";
+import Lottie from "react-lottie";
+import animationData from "../../assets/tree3.json";
 
 const Feature10 = () => {
+  const defautOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div className="xl:mx-auto xl:container hover:shadow-2xl hover:rounded-lg">
       <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8">
         <div className="flex flex-col-reverse lg:flex-row items-center">
           <div className="w-full lg:w-1/2 md:py-9 py-6">
-            <img
+            {/* <img
               src="https://cdn.tuk.dev/assets/templates/e-commerce-kit/luxe2.png"
               alt="bag"
               className="lg:w-full h-full object-cover object-center w-full"
-            />
+            /> */}
+            <Lottie options={defautOptions} height={300} width={300} />
           </div>
           <div className="lg:w-1/2 lg:pl-12 lg:pr-24">
             <p className="text-sm leading-none text-gray-600 pb-2">Featured</p>

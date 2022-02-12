@@ -11,7 +11,8 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <Feature />
+      <div className="mt-28" />
+      {/* <Feature /> */}
       <Section />
       <Section2 />
       <Section3 />
