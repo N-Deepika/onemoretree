@@ -15,7 +15,7 @@ const Feature10 = () => {
     <div className="xl:mx-auto xl:container hover:shadow-2xl hover:rounded-lg">
       <div className="lg:px-20 md:px-6 px-4 md:py-12 py-8">
         <div className="flex flex-col-reverse lg:flex-row items-center">
-          <div className="lg:w-1/2 lg:pl-12 lg:pr-24">
+          <div className="lg:w-1/2 lg:pl-12 lg:pr-24 p-6">
             <p className="text-sm leading-none text-gray-600 pb-2">Featured</p>
             <p className="md:text-3xl lg:text-4xl text-2xl font-semibold lg:leading-9 text-gray-800 lg:pb-6 md:pb-4 pb-2">
               Luxe New York Streak

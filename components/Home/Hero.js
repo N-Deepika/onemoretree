@@ -4,8 +4,8 @@ import Link from "next/link";
 const Hero3 = () => {
   return (
     <div className="dark:bg-gray-200">
-      <div className="container mx-auto py-9 md:py-12 lg:py-24">
-        <div className="relative mx-4">
+      <div className="mx-auto w-full">
+        <div className="relative">
           <img
             src="https://i.imgur.com/jhykePn.png"
             alt="A work table with house plants"
@@ -34,7 +34,7 @@ const Hero3 = () => {
                 treat them with care.
               </p>
               <div className="my-6">
-                <Link href="/">
+                <Link href="/explore">
                   <a className="hidden sm:inline bg-gray-800 rounded-lg py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
                     Explore
                   </a>

@@ -26,7 +26,10 @@ export default function Example() {
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     alt="Workflow"
                   /> */}
-                  <h1>OneMoreTree</h1>
+                  <img
+                    className="h-12 mr-10"
+                    src="https://cdn.discordapp.com/attachments/941636283208458250/942107916146716682/unknown.png"
+                  />
                   {/* <img
                     className="hidden lg:block h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
