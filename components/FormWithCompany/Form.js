@@ -3,42 +3,42 @@ const Form = () => {
     <form className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
       <div>
         <label
-          htmlFor="first_name"
+          htmlFor="type"
           className="block text-sm font-medium text-warm-gray-900"
         >
-          First name
+          Type
         </label>
         <div className="mt-1">
-          <input
-            type="text"
-            name="first_name"
-            id="first_name"
-            autoComplete="given-name"
-            placeholder="Ellen"
-            required
-            className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
-          />
+          <div className="flex justify-center">
+            <div className="mb-3 xl:w-96">
+              <select className="w-full border bg-white rounded px-3 py-2 outline-none">
+                <option className="py-1">Option 1</option>
+                <option className="py-1">Option 2</option>
+                <option className="py-1">Option 3</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
-      <div>
+      <div className="sm:col-span-2">
         <label
-          htmlFor="last_name"
+          htmlFor="fullname"
           className="block text-sm font-medium text-warm-gray-900"
         >
-          Last name
+          Name
         </label>
         <div className="mt-1">
           <input
             type="text"
-            name="last_name"
-            id="last_name"
-            autoComplete="family-name"
-            placeholder="Ripley"
+            name="fullname"
+            id="fullname"
+            placeholder="John Doe"
             required
             className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
           />
         </div>
       </div>
+
       <div>
         <label
           htmlFor="email"
@@ -79,6 +79,7 @@ const Form = () => {
           />
         </div>
       </div>
+
       <div className="sm:col-span-2">
         <label
           htmlFor="companyname"
@@ -115,31 +116,6 @@ const Form = () => {
           />
         </div>
       </div>
-      {/* <div className="sm:col-span-2">
-        <div className="flex justify-between">
-          <label
-            htmlFor="message"
-            className="block text-sm font-medium text-warm-gray-900"
-          >
-            Message
-          </label>
-          <span id="message-max" className="text-sm text-warm-gray-500">
-            What can you teach?
-          </span>
-        </div>
-        <div className="mt-1">
-          <textarea
-            id="message"
-            name="message"
-            rows={4}
-            className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
-            aria-describedby="message-max"
-            placeholder="Tenetur optio quaerat expedita vero et illo. Tenetur nam explicabo dolor voluptatem eveniet. Commodi est beatae id voluptatum porro laudantium. Quam placeat accusamus vel officiis vel. Et perferendis dicta ut perspiciatis quos iste. Tempore autem molestias voluptates in sapiente enim doloremque."
-            required
-            defaultValue={""}
-          />
-        </div>
-      </div> */}
       <div className="sm:col-span-2 sm:flex sm:justify-end">
         <button
           type="submit"
