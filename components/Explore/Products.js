@@ -36,9 +36,9 @@ export default function Products({ trees }) {
 
                   <div className="mt-auto">
                     <div className="flex items-center flex-wrap">
-                      <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <button className="text-indigo-500 inline-flex cursor-pointer items-center md:mb-2 lg:mb-0">
                         Donate This
-                      </a>
+                      </button>
                       <span className="text-gray-700 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                         <div className="px-1">
                           <AiFillStar />
