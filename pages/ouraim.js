@@ -26,9 +26,9 @@ const Ouraim = () => {
           you? Do you still want to do something? OneMoreTree has some great and
           easy steps for you to follow. You just have to go about and select a
           tree and get your saplings into the earth. This initiative works with
-          people all over the world who depends on tree planting for their
-          businesses. Contributors can pick the type of tree they want, from a
-          neem to an eucalyptus, their quantities and place an order. Following
+          people whose business deals with trees and plantations. Contributors
+          can pick the type of tree they want, from Neem to Eucalyptus,we have a
+          long list of distributors listed with us and place an order. Following
           that , those orders will be forwarded to the other trees selling
           businesses and other small scale planters who acts like a distributor
           for us. But thats not only it, we also give a plateform to the young
