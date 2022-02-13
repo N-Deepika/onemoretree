@@ -96,7 +96,7 @@ const Form = () => {
 
   return (
     <form
-      className={`hover:shadow-2xl border-2 border-slate-400 w-4/5 mx-auto mb-20 py-6 lg:px-16 h-full grid place-items-center font-Rubik px-4 text-black sm:px-8 sm:py-6 `}
+      className={`hover:shadow-2xl md:border-2 border-slate-400 md:w-4/5 mx-auto mb-20 py-6 lg:px-16 h-full grid place-items-center font-Rubik px-4 text-black sm:px-8 sm:py-6 `}
     >
       <div className="w-full md:w-1/2 ml-auto">
         <div className={`w-full flex flex-col`}>

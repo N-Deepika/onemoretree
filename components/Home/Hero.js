@@ -22,7 +22,7 @@ const Hero3 = () => {
             className="sm:hidden w-full h-full"
           />
           <div className="absolute h-full top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
-            <div className="my-auto">
+            <div className="">
               <h1 className="text-4xl mb-6 sm:text-5xl  lg:text-7xl font-semibold text-gray-800 sm:w-8/12">
                 Act Before Its Too Late
               </h1>
@@ -35,16 +35,16 @@ const Hero3 = () => {
               </p>
               <div className="my-6">
                 <Link href="/explore">
-                  <a className="hidden sm:inline bg-gray-800 rounded-lg py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
+                  <a className="sm:inline bg-gray-800 rounded-lg py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
                     Explore
                   </a>
                 </Link>
               </div>
             </div>
           </div>
-          <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
+          {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-1/2 right-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">
             Explore
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Ouraim = () => {
   return (
-    <div className="px-44 py-20">
+    <div className="px-4 md:px-44 py-20">
       <div className="goal">
         <div className="text-4xl font-bold pb-2 border-b-4 border-b-slate-500">
           Why this!? Why are we doing this?
