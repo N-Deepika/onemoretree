@@ -5,6 +5,7 @@ import Section from "../components/Home/Section";
 import Section2 from "../components/Home/Section2";
 import Section3 from "../components/Home/Section3";
 import Section4 from "../components/Home/Section4";
+import Form from "../components/Home/Form";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Section2 />
         <Section3 />
       </div>
+      <Form />
       <CTA />
     </div>
   );
