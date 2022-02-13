@@ -40,8 +40,8 @@ const Form = () => {
     } else {
       route = "contributor";
     }
-    // fetch(`https://onemoretree.herokuapp.com/auth/register/${route}`, {
-    fetch(`http://localhost:5000/auth/register/${route}`, {
+    fetch(`https://onemoretree.ml/auth/register/${route}`, {
+      // fetch(`http://localhost:5000/auth/register/${route}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

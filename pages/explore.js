@@ -18,9 +18,7 @@ const Explore = () => {
   };
 
   const getTrees = async () => {
-    const response = await fetch(
-      "https://onemoretree.herokuapp.com/data/alltrees"
-    );
+    const response = await fetch("https://onemoretree.ml/data/alltrees");
     const data = await response.json();
     console.log(data);
     setTrees(data.data);
