@@ -35,10 +35,10 @@ const Form = () => {
       autoClose: false,
       disallowClose: true,
     });
-    if (type === 1) {
+    if (type === "Distributor") {
       route = "distributor";
     } else {
-      route = "contributor";
+      route = "Contributor";
     }
     fetch(`https://onemoretree.ml/auth/register/${route}`, {
       // fetch(`http://localhost:5000/auth/register/${route}`, {
@@ -97,10 +97,7 @@ const Form = () => {
   };
 
   return (
-    <div
-      flex
-      className="flex hover:shadow-2xl flex-col md:flex-row mb-20 w-11/12 mx-auto justify-center items-stretch"
-    >
+    <div className="flex hover:shadow-2xl flex-col md:flex-row mb-20 w-11/12 mx-auto justify-center items-stretch">
       <div className="w-full h-80 sm:h-auto rounded-t-xl md:rounded-t-none md:rounded-tl-xl md:rounded-bl-xl overflow-hidden md:w-1/2">
         <img
           src={FormImage.src}
@@ -131,10 +128,11 @@ const Form = () => {
                 required
                 value={type}
                 data={[
-                  { value: 1, label: "Distributor" },
-                  { value: 2, label: "Contributor" },
+                  { value: "Distributor", label: "Distributor" },
+                  { value: "Contributor", label: "Contributor" },
                 ]}
                 onChange={(e) => {
+                  console.log(e);
                   setType(e);
                 }}
               />
@@ -204,7 +202,9 @@ const Form = () => {
               />
 
               <TextInput
-                className={`w-full my-2 ${type === 2 ? "hidden" : ""}`}
+                className={`w-full my-2 ${
+                  type === "Contributor" ? "hidden" : ""
+                }`}
                 styles={{
                   input: { color: "black", padding: "15px 10px" },
                   label: { color: "black", fontSize: "1rem" },
@@ -225,7 +225,7 @@ const Form = () => {
               <div className="flex my-2 flex-col sm:flex-row gap-2">
                 <PasswordInput
                   className={`my-2 sm:my-0 sm:w-1/2 ${
-                    type === 2 ? "hidden" : ""
+                    type === "Contributor" ? "hidden" : ""
                   }`}
                   styles={{
                     input: { color: "black", padding: "15px 10px" },
@@ -242,7 +242,7 @@ const Form = () => {
 
                 <PasswordInput
                   className={`my-2 sm:my-0 sm:w-1/2 ${
-                    type === 2 ? "hidden" : ""
+                    type === "Contributor" ? "hidden" : ""
                   }`}
                   styles={{
                     input: { color: "black", padding: "15px 10px" },
