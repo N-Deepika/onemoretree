@@ -2,9 +2,20 @@ import React, { useEffect, useState } from "react";
 import Products from "../components/Explore/Products";
 import Header from "../assets/explore.png";
 import NextImage from "next/image";
+import Lottie from "react-lottie";
+import animationData from "../assets/tree5.json";
 
 const Explore = () => {
   const [trees, setTrees] = useState([]);
+
+  const defautOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   const getTrees = async () => {
     const response = await fetch(
@@ -19,7 +30,7 @@ const Explore = () => {
     getTrees();
   }, []);
 
-  return (
+  return trees.length > 0 ? (
     <div
       className="w-full"
       style={{
@@ -32,8 +43,12 @@ const Explore = () => {
         <NextImage src={Header} layout="responsive" alt="header" />
       </div>
       <div>
-        {trees.length > 0 ? <Products trees={trees} /> : <div>Loading...</div>}
+        <Products trees={trees} />
       </div>
+    </div>
+  ) : (
+    <div className="absolute w-screen h-[80vh] bg-white flex z-50 justify-center items-center">
+      <Lottie options={defautOptions} height={300} width={300} />
     </div>
   );
 };

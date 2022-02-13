@@ -39,10 +39,10 @@ export default function Example({
         >
           <LoginFormDistributor />
           <button
-            className="border-transparent text-gray-500 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            className="border-transparent text-red-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             onClick={() => setDistributorModal(false)}
           >
-            Close me Daddy
+            Close
           </button>
         </Modal>
       </div>
@@ -54,10 +54,10 @@ export default function Example({
         >
           <Form />
           <button
-            className="border-transparent text-gray-500 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            className="border-transparent text-gray-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             onClick={() => setContributorModal(false)}
           >
-            Close me Daddy
+            Close
           </button>
         </Modal>
       </div> */}
@@ -69,10 +69,10 @@ export default function Example({
         >
           <LoginFormAdmin />
           <button
-            className="border-transparent text-gray-500 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            className="border-transparent text-red-500  block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             onClick={() => setAdminModal(false)}
           >
-            Close me Daddy
+            Close
           </button>
         </Modal>
       </div>
