@@ -10,3 +10,6 @@ Is getting outside and physically planting a tree not an option for you? Do you 
 
 # What are the features
 We plan to organise various events on our plateform as well as promote climate awareness among the youngsters and providing them a plateform to showcase their contributions and contribute to the environment. Small scale businesses can connect with us and enlist their trees and contributors can donate and plant their trees of their choice or can themselves go outside and plant a sapling and enlist themselves on the leaderboard of our website.
+
+# Progress Report
+We've completely designed and completed the backend of the project and have a working flow of the plateform, we are yet to connect the complete backend with frontend, few functionalities like the dashboard feature and payment integration is pending.
