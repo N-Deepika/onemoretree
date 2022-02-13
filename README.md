@@ -8,8 +8,5 @@ Our carbon emissions must be drastically reduced to prevent the most dangerous e
 # How it works
 Is getting outside and physically planting a tree not an option for you? Do you still want to do something? OneMoreTree has some great and easy steps for you to follow. You just have to go about and select a tree and get your saplings into the earth. This initiative works with people whose business deals with trees and plantations. Contributors can pick the type of tree they want, from Neem to Eucalyptus,we have a long list of distributors listed with us and place an order. Following that , those orders will be forwarded to the other trees selling businesses and other small scale planters who acts like a distributor for us. But thats not only it, we also give a plateform to the young climate enthusiasts to lend their hand in saving the Earth, promote them by providing a leaderboard and prizes for the top saviours and also contribute to other initiatives working towards saving the world with the help of a bit of margin we are keeping in the model.
 
-# Actually is It 
-It is a plateform to connect the climate warriors and businesses which deal with tree plantations together to provide a solution to help both the mother nature as well as the businesses.
-
 # What are the features
 We plan to organise various events on our plateform as well as promote climate awareness among the youngsters and providing them a plateform to showcase their contributions and contribute to the environment. Small scale businesses can connect with us and enlist their trees and contributors can donate and plant their trees of their choice or can themselves go outside and plant a sapling and enlist themselves on the leaderboard of our website.
